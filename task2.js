@@ -1,33 +1,27 @@
 /*
-//prblem:1
-let NAME
-NAME="JOHN"
-console.log(NAME)
-let admin
-admin=NAME
-console.log(admin)
-alert(`${admin}`)*/
+if ("0") {
+    alert( 'Hello' );           //it show alert Hello
+  }*/
+  let students=prompt ("ENTER YOUR NAME")           //here we enter the name    
+  let marks =Number(prompt("ENTER YOUR MARKS"))     //here we enter the marks
+  console.log(students+ " -MARKS="+marks)            //here we show the students-MARKS=marks
+        if (marks < 35){                            //condition
+          console.log("Grade : F");                 //show reasult     
+          }                                         
+        else  if(marks <= 40) {                     //condition
+                console.log("Grade : D");           //show reasult
+        } 
+        else if (marks <= 50) 
+             {
+                console.log("Grade : C"); 
+        } 
+        else if(marks <= 70) 
+        {
+                console.log("Grade : B"); 
+        } 
+        else if(marks <= 90)
+         {
+                console.log("Grade : A"); 
+        }
 
-//problem:2
-let name = "john";
-
-alert( `hello ${1}` ); // ?hello 1
-
-alert( `hello ${"name"}` ); // ?hello name
-
-alert( `hello ${name}` ); // ?hello john
-/*
-//problem:3
-let a = 1, b = 1;
-
-let c = ++a; // 2
-let d = b++; // 1
-console.log(c)
-console.log(d)
-//problem:4
-let a = 2;
-let x = 1 + (a *= 2);
-console.log(x)*/
-//problem:2
-
-
+  

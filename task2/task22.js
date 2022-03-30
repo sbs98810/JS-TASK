@@ -1,7 +1,4 @@
-/*
-if ("0") {
-    alert( 'Hello' );           //it show alert Hello
-  }*/
+
   let students=prompt ("ENTER YOUR NAME")           //here we enter the name    
   let marks =Number(prompt("ENTER YOUR MARKS"))     //here we enter the marks
   console.log(students+ " -MARKS="+marks)            //here we show the students-MARKS=marks

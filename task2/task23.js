@@ -12,6 +12,6 @@ let NUMBER=Number(prompt ("ENTER NUMBER"))
         else if 
         (NUMBER == 0)
         {
-            alert(typeof"0")
+            alert("0")
         } 
            

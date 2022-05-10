@@ -1,0 +1,58 @@
+/*input:checked{
+    width:20px;
+    height:20px;
+}
+input:focus{
+    background-color: antiquewhite;
+    border-color: yellow;
+}
+
+
+input:enabled{
+    background-color: rgb(199, 240, 179);
+    border-color: rgb(255, 0, 170);}
+
+input:invalid{
+    background-color: rgb(234, 83, 83);}
+   input:disabled{
+        background-color: grey;}*/
+        input:checked{
+            width:20px;
+            height:20px;
+        }
+        input:disabled{
+            background-color: rgb(198, 104, 179);
+        }
+        input:enabled{
+            background-color: rgb(206, 227, 124);
+            border-color: rgb(230, 148, 236);
+        
+        }
+        input:focus{
+            background-color: rgb(219, 240, 241);
+            border-color: rgb(233, 145, 37);
+            border-width: 3px;
+        }
+        input:invalid{
+            background-color: red;
+            
+            
+        }
+        input:in-range{
+            background-color: rgb(150, 218, 144);
+        }
+        input::placeholder{
+            color: aqua;
+        }
+        
+        
+        /*
+        :not(h1){
+            color: rgb(22, 23, 24);
+        }
+        h1{
+            color:black
+        }
+        input:required{
+            color: black;
+        }*/
